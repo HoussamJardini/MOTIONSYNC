@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MotionSync - Analyse de Mouvement par IA</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="blur-overlay"></div>
+    
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+          <div class="menu-toggle">
+            <span>☰</span>
+          </div>
+          <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+
+
+<!-- Hero Section -->
+<section id="home" class="hero">
+    <div class="hero-background">
+        <!-- Background Video -->
+        <video autoplay loop muted class="hero-video">
+            <source src="images\Video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    <div class="container">
+        <div class="hero-content" data-scroll>
+            <!-- Add your logo here -->
+            <img id="hero-logo" src="images/logocroped.png" alt="MotionSync Logo" class="hero-logo">
+            <h2 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;" alt="MotionSync tite" class="move">MOVE FUIDLY</h2>
+            <p class="subtitle" alt="MotionSync sub">Analyse de mouvement en temps réel pour des performances optimales</p>
+            <div class="cta-buttons">
+                <a href="#features" class="btn secondary">En savoir plus</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- Features Section -->
+<section id="features" class="features">
+    <div class="container">
+        <h2 class="section-title" data-scroll>Fonctionnalités <span>innovantes</span></h2>
+        <p class="section-subtitle" data-scroll>Découvrez comment MotionSync transforme votre pratique sportive</p>
+        
+        <div class="features-grid">
+            <div class="feature-card" data-id="1" data-scroll>
+                <div class="icon">
+                    <i class="fas fa-brain"></i>
+                </div>
+                <h3>Analyse par IA</h3>
+                <p>Notre intelligence artificielle analyse vos mouvements en temps réel et les compare aux références professionnelles.</p>
+                <p class="additional-explanation">Cette fonctionnalité utilise l'IA pour identifier des anomalies dans les mouvements et proposer des ajustements en temps réel pour améliorer les performances.</p>
+            </div>
+            
+            <div class="feature-card" data-id="2" data-scroll>
+                <div class="icon">
+                    <i class="fas fa-user-md"></i>
+                </div>
+                <h3>Feedback précis</h3>
+                <p>Recevez des conseils détaillés pour corriger votre posture et optimiser vos performances.</p>
+                <p class="additional-explanation">Le feedback est généré à partir de vos vidéos et des algorithmes d'analyse pour vous donner des conseils pratiques sur l'alignement corporel et la technique.</p>
+            </div>
+            
+            <div class="feature-card" data-id="3" data-scroll>
+                <div class="icon">
+                    <i class="fas fa-running"></i>
+                </div>
+                <h3>Prévention des blessures</h3>
+                <p>Détection des mouvements à risque pour réduire les chances de vous blesser pendant l'entraînement.</p>
+                <p class="additional-explanation">Cette fonctionnalité détecte les mouvements risqués et vous alerte pour éviter des blessures pendant vos séances d'entraînement.</p>
+            </div>
+            
+            <div class="feature-card" data-id="4" data-scroll>
+                <div class="icon">
+                    <i class="fas fa-chart-line"></i>
+                </div>
+                <h3>Suivi de progression</h3>
+                <p>Visualisez votre amélioration au fil du temps avec des statistiques détaillées et des graphiques.</p>
+                <p class="additional-explanation">Suivez vos progrès grâce à des graphiques interactifs et des statistiques détaillées qui vous aident à comprendre vos points forts et à travailler sur vos faiblesses.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content" data-scroll>
+                <h2 class="section-title">Notre <span>mission</span></h2>
+                <p>MotionSync a été créé pour répondre à une problématique majeure : l'accès limité à un entraînement de qualité à cause du coût élevé du coaching et des infrastructures spécialisées.</p>
+                <p>Notre plateforme analyse en temps réel les mouvements corporels grâce à des modèles avancés d'IA. Elle estime les positions articulaires, détecte les erreurs de posture et compare les gestes aux références professionnelles.</p>
+                <p>Contrairement aux solutions traditionnelles nécessitant des équipements coûteux ou un coach spécialisé, MotionSync rend l'analyse de mouvement de haute qualité accessible à tous.</p>
+            </div>
+            <div class="about-image" data-scroll>
+                <img src="images/Artboard 2.png" alt="À propos de MotionSync">
+            </div>
+        </div>
+    </section>
+
+    <!-- ODD Section -->
+    <section class="odd">
+        <div class="container">
+            <h2 class="section-title" data-scroll>Objectifs de Développement <span>Durable</span></h2>
+            <p class="section-subtitle" data-scroll>MotionSync s'inscrit dans plusieurs ODD des Nations Unies</p>
+            
+            <div class="odd-grid">
+                <div class="odd-card" data-scroll>
+                    <div class="odd-number">3</div>
+                    <h3>Bonne santé et bien-être</h3>
+                    <p>Amélioration de la posture et réduction des risques de blessures pour les sportifs et patients en rééducation.</p>
+                </div>
+                
+                <div class="odd-card" data-scroll>
+                    <div class="odd-number">4</div>
+                    <h3>Éducation de qualité</h3>
+                    <p>Apprentissage interactif des techniques sportives pour progresser de manière autonome.</p>
+                </div>
+                
+                <div class="odd-card" data-scroll>
+                    <div class="odd-number">9</div>
+                    <h3>Industrie, innovation et infrastructure</h3>
+                    <p>Technologies avancées (IA, vision par ordinateur) pour des analyses intelligentes et personnalisées.</p>
+                </div>
+                
+                <div class="odd-card" data-scroll>
+                    <div class="odd-number">10</div>
+                    <h3>Réduction des inégalités</h3>
+                    <p>Suppression des barrières financières pour démocratiser l'amélioration des performances sportives.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   <!-- Nos Valeurs Section -->
+<!-- Nos Valeurs Section -->
+<section id="valeurs" class="valeurs">
+    <div class="container">
+        <h2 class="section-title" data-scroll>Nos <span>Valeurs</span></h2>
+        <p class="section-subtitle" data-scroll>Découvrez nos engagements pour un avenir durable</p>
+
+        <div class="values-cards">
+            
+
+            <!-- Card 2 - Sustainability -->
+            <a href="#" class="value-card2">
+                <p>La durabilité est au cœur de nos activités. Nous visons à réduire notre empreinte écologique.</p>
+                <h3>Sustainability</h3>
+                <div class="go-corner">
+                    <span class="go-arrow">→</span>
+                </div>
+            </a>
+
+            <!-- Card 3 - Innovation -->
+            <a href="#" class="value-card3">
+                <p>Nous croyons que l'innovation est essentielle pour transformer les défis en opportunités.</p>
+                <h3>Innovation</h3>
+                <div class="go-corner">
+                    <span class="go-arrow">→</span>
+                </div>
+            </a>
+
+            <!-- Card 4 - Community -->
+            <a href="#" class="value-card4">
+                <p>Nous soutenons activement les initiatives communautaires pour créer un impact social positif.</p>
+                <h3>Community</h3>
+                <div class="go-corner">
+                    <span class="go-arrow">→</span>
+                </div>
+            </a>
+        </div>
+    </div>
+</section>
+
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-content" data-scroll>
+                <h2 class="section-title">Prêt à <span>commencer</span> ?</h2>
+                <p>Inscrivez-vous pour recevoir une démonstration gratuite de MotionSync ou posez-nous vos questions.</p>
+                
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <p>motionsyncproject@gmail.com
+                        </p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <p>+212 689 631 536</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>kenitra, maroc</p>
+                    </div>
+                </div>
+                
+            <!--div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div!-->
+            
+            <div class="contact-form" data-scroll>
+                <form>
+                    <div class="form-group">
+                        <input type="text" placeholder="Votre nom" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Votre email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="Sujet">
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Votre message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn primary">Envoyer</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <h3>MotionSync</h3>
+                    <p>La plateforme d'analyse de mouvement par IA pour des performances optimales.</p>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Liens rapides</h3>
+                    <ul>
+                        <li><a href="#home">Accueil</a></li>
+                        <li><a href="#features">Fonctionnalités</a></li>
+                        <li><a href="#about">À propos</a></li>
+                        <li><a href="#values">Valeurs</a></li>
+                        <li><a href="#gallery">Galerie</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Newsletter</h3>
+                    <p>Abonnez-vous pour recevoir nos dernières actualités.</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Votre email">
+                        <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2023 MotionSync. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
