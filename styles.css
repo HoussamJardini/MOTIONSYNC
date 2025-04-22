@@ -1263,6 +1263,11 @@
       z-index: 999;
       gap: 1.5rem;
     }
+    .Black{
+      background-color: rgba(0, 0, 0, 0);
+      height: 100%;
+      border-radius: 40px;
+    }
     
     .nav-links.active {
       left: 0;
@@ -1291,6 +1296,12 @@
     
     .hero {
       padding-top: 6rem;
+    }
+
+    .Black{
+      background-color: rgba(0, 0, 0, 0);
+      height: 100%;
+      border-radius: 40px;
     }
     
     .title {
